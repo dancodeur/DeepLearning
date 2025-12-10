@@ -46,3 +46,30 @@ canvas {
     font-weight: bold;
     color: #333;
 }
+
+.log-area {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    text-align: left;
+    max-height: 200px;
+    overflow-y: auto; /* Permet le défilement si beaucoup de logs */
+    font-size: 0.8rem;
+}
+
+#logList {
+    list-style: none;
+    padding: 0;
+    margin: 5px 0 0 0;
+}
+
+#logList li {
+    padding: 2px 0;
+    border-bottom: 1px dotted #eee;
+}
+
+.log-error { color: red; font-weight: bold; }
+.log-info { color: darkblue; }
+.log-success { color: green; }
