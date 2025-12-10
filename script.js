@@ -55,7 +55,7 @@ document.getElementById('clearBtn').addEventListener('click', () => {
 async function loadModel() {
     try {
         // Création de la session d'inférence avec le fichier local
-        session = await ort.InferenceSession.create('/model.onnx');
+        session = await ort.InferenceSession.create('/model.bin');
         console.log("Modèle chargé avec succès !");
     } catch (e) {
         console.error("Impossible de charger le modèle :", e);
