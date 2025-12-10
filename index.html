@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reconnaissance de Chiffres ONNX</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/onnxruntime-web/dist/ort.min.js"></script>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Dessinez un chiffre</h1>
+        
+        <div class="canvas-wrapper">
+            <canvas id="digitCanvas" width="280" height="280"></canvas>
+        </div>
+
+        <div class="controls">
+            <button id="clearBtn" class="btn secondary">Effacer</button>
+            <button id="predictBtn" class="btn primary">Prédire</button>
+        </div>
+
+        <div id="result">
+            Prédiction : <span id="prediction">-</span>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
