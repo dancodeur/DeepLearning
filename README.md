@@ -18,7 +18,10 @@ print("Done")
 ```
 #### Résultat final 
 
+1.Model 2 **(99.3%)  Accuracy**
 ![UI Deeplearning](./images/ModelAccuray.png)
+2. Model 3 **(99.5%) Accuracy**
+![UI Deeplearning](./images/model_3_accuracy_99_5.png)
 
 ## Auteur
 Dan Elenga
