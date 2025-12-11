@@ -37,6 +37,13 @@ Ce model intègre les évolutions suivantes :
     ![UI TensorBoard](./images/train_test.png)
 
 - Normalization
+
+## BONUS
+
+Intégration :
+
+- Augmentation data
+
 ## Lancement du projet en local
 
 ### Récupération du projet
