@@ -44,15 +44,5 @@ Intégration :
 
 - Augmentation data
 
-## Lancement du projet en local
-
-### Récupération du projet
-
-```shell
- # Console
- py -m http.server
- # Sur le navigateur:
- localhost:8080
-```
 ## Auteur
 Dan Elenga
