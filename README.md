@@ -18,10 +18,34 @@ print("Done")
 ```
 #### Résultat final 
 
-1.Model 2 **(99.3%)  Accuracy**
+1. Model 2 **(99.3%)  Accuracy**
 ![UI Deeplearning](./images/ModelAccuray.png)
 2. Model 3 **(99.5%) Accuracy**
 ![UI Deeplearning](./images/model_3_accuracy_99_5.png)
+3. Model 4 **(99.7%) Accuracy**
+![UI Deeplearning](./images/Model_4_99_7.png)
 
+**Notes :**
+Ce model intègre les évolutions suivantes : 
+- Architecture CNN
+- Dropout
+- TensorBoard
+![UI TensorBoard](./images/interface_tenserboard.png)
+    **Accurary**
+    ![UI TensorBoard](./images/tensordashboard_ui_accuray.png)
+    **Training_test**
+    ![UI TensorBoard](./images/train_test.png)
+
+- Normalization
+## Lancement du projet en local
+
+### Récupération du projet
+
+```shell
+ # Console
+ py -m http.server
+ # Sur le navigateur:
+ localhost:8080
+```
 ## Auteur
 Dan Elenga
